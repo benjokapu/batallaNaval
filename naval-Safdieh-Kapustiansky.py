@@ -63,4 +63,4 @@ print("Cantidad de tiros errados: " + tirosErrados)
 print(hilera)
 
 
-    
+# Que buena esta Micaela Niebieski
