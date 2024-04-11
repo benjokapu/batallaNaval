@@ -61,4 +61,3 @@ for j in range (tirosDisponibles):
 print("Cantidad de tiros acertados: " + tirosAcertados)
 print("Cantidad de tiros errados: " + tirosErrados)
 print(hilera)
-
