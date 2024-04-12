@@ -58,6 +58,7 @@ for j in range (tirosDisponibles):
     
     
 
-print("Cantidad de tiros acertados: " + tirosAcertados)
-print("Cantidad de tiros errados: " + tirosErrados)
-print(hilera)
+
+print("Cantidad de tiros acertados: " + str(tirosAcertados))
+print("Cantidad de tiros errados: " + str(tirosErrados))
+print(t)
