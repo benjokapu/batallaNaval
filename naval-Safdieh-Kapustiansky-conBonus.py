@@ -1,7 +1,10 @@
 from typing import List
+from colorama import init, Fore
+
+init()
 #sacamos de chatgpt lo de colorama
 #from colorama import init, Fore, Back, Style
-#init()
+
 
 #tablero
 Tablero:List[List[bool]] = []
@@ -31,10 +34,10 @@ for j in range (tirosDisponibles):
             filaIngresada = input("Ingresa la fila: ")
             if filaIngresada.isdigit():  # Verifica si la entrada es un número entero
                 filaIngresada = int(filaIngresada)
-                if 0 <= filaIngresada <= 6:  # Verifica si el número está en el rango de 0 a 6
+                if 0 <= filaIngresada <= 4:  # Verifica si el número está en el rango de 0 a 4
                     break
                 else:
-                    print("La fila debe estar en el rango de 0 a 6.")
+                    print("La fila debe estar en el rango de 0 a 4.")
             else:
                 print("Por favor, introduce un número entero válido.")
 
@@ -43,10 +46,10 @@ for j in range (tirosDisponibles):
             columnaIngresada = input("Ingresa la columna: ")
             if columnaIngresada.isdigit():  # Verifica si la entrada es un número entero
                 columnaIngresada = int(columnaIngresada)
-                if 0 <= columnaIngresada <= 6:  # Verifica si el número está en el rango de 0 a 6
+                if 0 <= columnaIngresada <= 4:  # Verifica si el número está en el rango de 0 a 4
                     break
                 else:
-                    print("El número debe estar en el rango de 0 a 6.")
+                    print("El número debe estar en el rango de 0 a 4.")
             else:
                 print("Por favor, introduce un número entero válido.")
         if t[filaIngresada][columnaIngresada] == True:
@@ -59,6 +62,8 @@ for j in range (tirosDisponibles):
     
 
 
-print("Cantidad de tiros acertados: " + str(tirosAcertados))
-print("Cantidad de tiros errados: " + str(tirosErrados))
+print(Fore.GREEN + "Cantidad de tiros acertados: " + str(tirosAcertados))
+print(Fore.RED + "Cantidad de tiros errados: " + str(tirosErrados))
+print(Fore.WHITE + "")
 print(t)
+print(Fore.WHITE + "")
