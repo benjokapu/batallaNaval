@@ -46,9 +46,32 @@ for i in range (f):
     t.append(hilera)
 
 #barcos
-t[0][1]=True
-t[1][0]=True
-t[2][2]=True
+cantidadBarcos = 3
+#for i in range (cantidadBarcos):
+    
+#filab1j1= input("Jugador 1, ingrese la fila del barco 1:")
+#columnab1j1= input("Jugador 1, ingrese la columna del barco 1:")
+#t[filab1j1][columnab1j1] = True
+
+#filab1j2= input("Jugador 2, ingrese la fila del barco 1:")
+#columnab1j2= input("Jugador 2, ingrese la columna del barco 1:")
+#t[filab1j2][columnab1j2] = True
+
+#filab2j1= input("Jugador 1, ingrese la fila del barco 2:")
+#columnab2j1= input("Jugador 1, ingrese la columna del barco 2:")
+#t[filab2j1][columnab2j1] = True
+
+#filab2j2= input("Jugador 2, ingrese la fila del barco 2:")
+#columnab2j2= input("Jugador 2, ingrese la columna del barco 2:")
+#t[filab2j2][columnab2j2] = True
+
+#filab3j1= input("Jugador 1, ingrese la fila del barco 3:")
+#columnab3j1= input("Jugador 1, ingrese la columna del barco 3:")
+#t[filab3j1][columnab3j1] = True
+
+#filab3j2= input("Jugador 2, ingrese la fila del barco 3:")
+#columnab3j2= input("Jugador 2, ingrese la columna del barco 3:")
+#t[filab3j2][columnab3j2] = True
 
 #juego
 tirosAcertados = 0
