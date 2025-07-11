@@ -1,4 +1,5 @@
 from operator import truediv
+
 from typing import List
 from colorama import init, Fore
 emojis = [
